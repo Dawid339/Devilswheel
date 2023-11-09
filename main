@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колесо Обозрения</title>
+</head>
+<style>
+    .fon {
+  padding: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  background: rgba(217, 0, 0, 0.8);
+    }
+    body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 12px; /* Размер основного шрифта в <p></p>  */
+    background-color: #ffffff; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    25% {
+      color: rgb(208, 255, 0);
+    }
+    50% {
+      color: rgb(255, 119, 0);
+    }
+    75% {
+      color: rgb(223, 0, 0);
+    }
+    100% {
+      color: rgb(1, 213, 1);
+    }
+}
+
+h1 {
+    animation: color-change 5s infinite;
+}
+
+h2 {
+    color: #d70000; /* Цвет заголовка */
+    font-size: 25px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+</style>
+<body>
+    <tr valign='middle'><td><div class="fon"></div>
+    <h1>Колесо обозрения</h1>
+    <p>Колесо обозрения – это просто большая карусель с прикрепленными сиденьями, которая вращается вокруг своей оси.<br> Есть и другое название – мельничное колесо. Прототипом были ручные карусели из деревянных свай, созданные в 17 веке.</p>
+    <h2>Популярные места</h2>
+             <ul>
+                   <li>Melbourne Star, Австралия</li>
+                   <li>Disney Land, Соединеные Штаты Америки</li>
+             </ul>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;     <image src="https://thumbs.dreamstime.com/b/rueda-de-ferris-9226584.jpg" weight="500" height="500" alt="Image 1">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.008574607141!2d-117.91897420000001!3d33.8120918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2z0JTQuNGB0L3QsNC50LvQtdC90LQg0J_QsNGA0Lo!5e0!3m2!1sru!2snl!4v1698344520349!5m2!1sru!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <tr valign='middle'><td><div class="fon"></div>
+    </body>
+</html>
